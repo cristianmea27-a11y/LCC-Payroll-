@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payroll Login</title>
+
+    <!-- Login has its own CSS file -->
+    <link rel="stylesheet" href="employee_login_style.css">
+</head>
+
+<body>
+
+    <div class="payroll-login-box">
+
+        <h1 class="payroll-login-title">
+            Payroll System
+        </h1>
+
+        <h2 class="payroll-login-subtitle">
+            Login
+        </h2>
+
+        <form class="payroll-login-form" action="employee_login.php" method="POST">
+
+            <label class="payroll-login-label" for="username">
+                Username
+            </label>
+
+            <input
+                class="payroll-login-input"
+                type="text"
+                id="username"
+                name="username"
+                required
+            >
+
+            <label class="payroll-login-label" for="password">
+                Password
+            </label>
+
+            <input
+                class="payroll-login-input"
+                type="password"
+                id="password"
+                name="password"
+                required
+            >
+
+            <button class="payroll-login-button" type="submit">
+                Login
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
